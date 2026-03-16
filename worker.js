@@ -20,7 +20,7 @@ export default {
           body: JSON.stringify({
             contents: [{
               parts: [{
-                text: "ทำนายฝัน '" + dream + "' แบบสั้นๆ + เลขฝันในครั้งนี้"
+                text: "ทำนายฝัน '" + dream + "' แบบสั้นๆ + เลขฝันในครั้งนี้3ตัว"
               }]
             }]
           })
