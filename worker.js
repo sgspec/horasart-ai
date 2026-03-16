@@ -10,7 +10,7 @@ export default {
       // เรียก Gemini API
       const response = await fetch(
 
-"https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent?key=" + env.GEMINI_KEY,
+"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=" + env.GEMINI_KEY,
 
         {
           method: "POST",
