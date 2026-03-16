@@ -20,7 +20,7 @@ export default {
           body: JSON.stringify({
             contents: [{
               parts: [{
-                text: "ทำนายฝัน '" + dream + "' แบบสั้นๆ + เลขฝันในครั้งนี้3ตัว"
+                text: "ทำนายฝัน '" + dream + "' แบบสั้นๆ และ เลขฝันหรือเลขมงคลในครั้งนี้ 3ตัว"
               }]
             }]
           })
@@ -56,3 +56,4 @@ export default {
 
   }
 };
+ 
