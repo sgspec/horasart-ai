@@ -3,7 +3,7 @@ export default {
 
     // รับค่าคำฝันจาก URL
     const url = new URL(request.url);
-    const dream = url.searchParams.get("dream") || "ฝันเห็นงู";
+    const dream = url.searchParams.get("dream") || "ฝันเห็นงู"; 
 
     try {
 
