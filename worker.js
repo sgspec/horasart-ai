@@ -22,7 +22,7 @@ export default {
 
       // 🔥 เรียก Gemini
       const response = await fetch(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key=" + env.GEMINI_KEY,
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=" + env.GEMINI_KEY,
         {
           method: "POST",
           headers: {
